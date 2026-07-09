@@ -2,12 +2,12 @@ from ecdsa.numbertheory import inverse_mod
 from ecdsa.ecdsa import generator_secp256k1
 
 # Dane z transakcji
-r1 = int("ab9467e44699c0ab5ee2da6389e1646725a03bd66433eb99e531e45d76476ee0", 16)
-r2 = int("a674f3ced3e25621cde299d20a700ccab080eb8352db313c5e039473ae48df83", 16)
-s1 = int("59098b9fe30776049508f91eea10e4a9972eec2c1afe79674379578447b7aa46", 16)
-s2 = int("57d8156cb1f7d1b390a13bc008bb3f2478d5552d00cc75215f21bbef866bec55", 16)
-z1 = int("726c33406e9d8ac5824b9ab64a252c27146c26907b23eb082ac72b324c2e1167", 16)
-z2 = int("c7c58a952ca7b31ced67bfea57fd7571314f8d77a88c90f42e68bdd82c2adb4f", 16)
+r1 = int("baf2aa695873ee637a1b23b53a78c512e4ea8ed72738badbdac3fe6b2a769176", 16)
+r2 = int("d56a07721d620e6b3c64021713ae2cec9bc831c4d6d32501e347142bff70d078", 16)
+s1 = int("b47bbe4d2e405452dfa95bbd6ac3804c38c25f838edafd5ceb3456f3b040b0a6", 16)
+s2 = int("4c136bac45a92b2adfc0af27282b494f6dc416535433d36e04057de2bf7cc326", 16)
+z1 = int("d20aff079cd86074eff889e1f4f0fbd0b97ef4eeff378147afc815d8a28552d5", 16)
+z2 = int("17ea532a30334538c281467befb5fca7e66c6b1e760f5d17d77cb853c65a3c7d", 16)
 
 # Moduł porządkowy krzywej secp256k1
 n = generator_secp256k1.order()
